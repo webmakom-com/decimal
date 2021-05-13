@@ -1,0 +1,2 @@
+RUN starport network chain create $GITHUB_SHA http://github.com/onomyprotocol/onomy && \
+    starport network chain join $GITHUB_SHA
